@@ -38,7 +38,10 @@ Syslog
 | summarize FailedAttempts = count() by IP
 | where FailedAttempts > 5
 ```
+## 🧩 MITRE ATT&CK Mapping
 
+- Tactic: Credential Access
+- Technique: T1110 (Brute Force)
 ---
 
 ## 🚀 Implementation
